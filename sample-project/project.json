@@ -1,0 +1,54 @@
+{
+ "phase": "done",
+ "brief": "A cozy harbor-town trading game; fishing boats, market stalls, lighthouse keepers. Warm dusk light.",
+ "styleWords": "low-poly, hand-painted, dusky orange and teal palette",
+ "balance": null,
+ "creditsSpent": 42,
+ "sheet": {
+  "status": "SUCCEEDED",
+  "rolls": 1,
+  "error": null,
+  "file": "concepts/style-sheet-1.png"
+ },
+ "assets": [
+  {
+   "id": 4,
+   "name": "Lighthouse",
+   "desc": "a squat harbor lighthouse with a warm lamp",
+   "error": null,
+   "creditsSpent": 18,
+   "concept": {
+    "status": "SUCCEEDED",
+    "file": "concepts/lighthouse.png",
+    "approved": true,
+    "awaitingReview": false
+   },
+   "model": {
+    "status": "SUCCEEDED",
+    "progress": 100,
+    "glb": "models/lighthouse/lighthouse.glb",
+    "thumbnail": "models/lighthouse/thumbnail.png"
+   }
+  },
+  {
+   "id": 5,
+   "name": "Market stall",
+   "desc": "a single simple wooden market stall with a striped awning",
+   "error": null,
+   "creditsSpent": 21,
+   "concept": {
+    "status": "SUCCEEDED",
+    "file": "concepts/market-stall.png",
+    "approved": true,
+    "awaitingReview": false
+   },
+   "model": {
+    "status": "SUCCEEDED",
+    "progress": 100,
+    "glb": "models/market-stall/market-stall.glb",
+    "thumbnail": "models/market-stall/thumbnail.png"
+   }
+  }
+ ],
+ "sampleMode": true
+}

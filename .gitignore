@@ -1,0 +1,63 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.json
+
+# Dependencies
+node_modules/
+.venv/
+venv/
+__pycache__/
+
+# Build output
+.next/
+dist/
+build/
+out/
+coverage/
+*.tsbuildinfo
+
+# Generated assets and temporary downloads
+generated/
+kit-output/
+downloads/
+tmp/
+*.glb
+# ...except the committed sample project, a real recorded run used for
+# keyless sample mode
+!sample-project/**/*.glb
+*.gltf
+*.fbx
+*.obj
+*.mtl
+*.usdz
+*.usdc
+*.usda
+*.ply
+*.stl
+*.blend
+
+# Logs
+*.log
+npm-debug.log*
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# IDE and tool settings
+.vscode/
+.idea/
+.claude/settings.local.json
+
+# The source brief and the working docs stay local.
+*.pdf
+docs/
+
+# Written deliverables stay local until published on their own channels
+content/blog-post.md
+content/demo-video-script.md
+content/growth-plan.md

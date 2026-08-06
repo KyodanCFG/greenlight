@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Greenlight</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script type="module" src="vendor/model-viewer.min.js"></script>
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <span class="logo">🟢</span>
+      <div>
+        <h1>Greenlight</h1>
+        <p class="tagline">Build cohesive game art, not asset soup.</p>
+      </div>
+    </div>
+    <div class="meters">
+      <button id="history-btn" class="chip" title="every export ever made on this machine, prompts included">history</button>
+      <span id="spent" class="chip" title="credits spent this session">spent —</span>
+      <span id="balance" class="chip" title="Meshy credit balance">balance —</span>
+    </div>
+  </header>
+
+  <nav id="steps">
+    <span data-step="brief">1 · Brief</span>
+    <span data-step="sheet">2 · Style sheet</span>
+    <span data-step="manifest">3 · Asset list</span>
+    <span data-step="generate">4 · Generate &amp; export</span>
+  </nav>
+
+  <main id="app" aria-live="polite"></main>
+
+  <footer>
+    Built on the <a href="https://docs.meshy.ai" target="_blank" rel="noreferrer">Meshy API</a>.
+    Assets are generated on your account and downloaded locally — Meshy deletes
+    server-side copies after 3 days.
+  </footer>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>

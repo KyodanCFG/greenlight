@@ -1,0 +1,18 @@
+{
+  "name": "greenlight",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "description": "Turn a game-jam brief into an approved style sheet, then a matching set of 3D assets via the Meshy API, exported as an engine-ready kit.",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node server/server.js"
+  },
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "express": "^5.1.0"
+  }
+}
